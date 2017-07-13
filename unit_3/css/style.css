@@ -1,9 +1,8 @@
 body {
-	background: url("images/beachguys.jpg");
-	background-repeat: no-repeat;
-	background-position: cover
+	background: #000000 url("images/beachguys.jpg") no-repeat;
+	background-position: cover;
 }
 
 h2, p {
-    color: yellow;
+    color: black;
 }
