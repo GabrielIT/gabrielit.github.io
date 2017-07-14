@@ -1,5 +1,5 @@
 body {
-	background: #000000 url("images/beachguys.jpg") no-repeat;
+	background: #000000 url("../images/beachguys.jpg") no-repeat cover;
 	background-position: cover;
 }
 
