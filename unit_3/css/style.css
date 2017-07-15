@@ -1,7 +1,8 @@
 body {
 	background-color: #000000;
 	background-image: url("../images/beachguys.jpg");
-	background: top center no-repeat cover;
+	background-repeat: no-repeat;
+	background-position: cover;
 }
 
 h2, p {
