@@ -1,0 +1,206 @@
+
+
+
+
+body {
+	background-color: white;
+	font-family: 'Open Sans', serif;
+	font-size: 1.2em;
+	line-height: 1.58em;
+	box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #333333;
+}
+
+a {
+	color: inherit;
+}
+
+
+
+
+/* - MENU - */
+nav{
+	display: inline-block;
+	width: 100%;
+	max-width: 1280px;
+	box-sizing: border-box;
+}
+
+.topmenu{
+	display: inline-block;
+}
+
+.right{
+	text-align: right;
+}
+
+
+
+header{
+	max-width: 1280px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+main{
+	max-width: 1280px;
+	float: none;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+nav{
+  padding: 20px;
+	box-sizing: border-box;
+}
+
+.logo{
+	float: left;
+	width: 33.3%;
+}
+
+.items{
+	float: right;
+	text-align: right;
+	width: 66.4%;
+}
+
+
+
+article{
+	background-color: #E89C6C;
+  padding: 20px;
+	box-sizing: border-box;
+}
+
+footer{
+	padding: 20px;
+	max-width: 1280px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+section{
+  padding: 20px;
+	box-sizing: border-box;
+	display: table;
+}
+
+div{
+
+	box-sizing: border-box;
+}
+
+figure{
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+.articles, portfolio {
+    padding: 20px;
+		box-sizing: border-box;
+}
+
+
+
+#right {
+    background-color: #FF5555;
+    padding: 1.5%;
+		float: left;
+    width: 33.3%;
+		display: table-cell;
+}
+
+
+#center {
+    background-color: #45F2A2;
+    padding: 1.5%;
+		float: left;
+    width: 33.3%;
+		display: table-cell;
+}
+
+
+#left {
+    background-color: #E582A2;
+    padding: 1.5%;
+		float: left;
+    width: 33.3%;
+		display: table-cell;
+}
+
+
+#me{
+	display: table-cell;
+	float: left;
+	padding: 1%;
+	width: 50%;
+}
+
+#intro{
+	display: table-cell;
+	float: left;
+	padding: 1%;
+	width: 50%;
+}
+
+@media screen and (max-width: 640px) {
+	#left {
+		display: inline;
+		width: 100%;
+	}
+	#center {
+		display: inline;
+		width: 100%;
+	}
+	#right {
+		display: inline;
+		width: 100%;
+	}
+	h1, h2, h3, h4, h5, h6, p {
+	    text-align: center;
+	}
+	nav{
+		text-align: center;
+	}
+	.logo{
+		float: center;
+		display: inline;
+		width: 100%;
+	}
+	.items{
+		float: center;
+		text-align: center;
+		display: inline;
+		width: 100%;
+	}
+	img {
+		text-align: center;
+	}
+	figcaption{
+		text-align: center;
+	}
+	#me {
+		display: inline;
+		width: 100%;
+	}
+	#intro {
+		display: inline;
+		width: 100%;
+	}
+
+}
